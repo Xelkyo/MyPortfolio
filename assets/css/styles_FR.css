@@ -59,10 +59,8 @@ a.nav-item:hover {
 	margin-bottom:15px;
 }
 
-.Experiences-container p{
-  max-width: 60%;
-margin-left: auto;
-margin-right: auto;
+.Experiences-container{
+  margin: auto;
 }
 
 .project-figure {
