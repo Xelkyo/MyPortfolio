@@ -53,6 +53,7 @@ a.nav-item:hover {
 }
 
 .social-container img{
+  align-items: center;
 	max-width:100%;
 	max-height:175px;
 	margin-bottom:15px;
@@ -71,6 +72,12 @@ a.nav-item:hover {
 .box {
 	background-color: transparent;
 	border: 2px solid rgba(7, 59, 79, 0.5);
+}
+
+.lang{
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 0.1%;
 }
 
 .title {
@@ -116,6 +123,11 @@ a.nav-item:hover {
   margin-right: auto;
   display: inline-block;
 
+}
+
+.author{
+  text-align: right;
+  font-size: xx-small;
 }
 
 .skill-bars .bar{
