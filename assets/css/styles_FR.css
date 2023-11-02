@@ -195,21 +195,27 @@ a.nav-item:hover {
 .bar .progress-line.mysql span{
   width: 50%;
 }
+.bar .progress-line.vuejs span{
+  width: 65%;
+}
 .bar .progress-line.C span{
-	width: 80%;
-  }
-  .bar .progress-line.Cpp span{
-	width: 70%;
-  }
-  .bar .progress-line.C\# span{
-	width: 60%;
-  }
-  .bar .progress-line.AdminSys span{
-	width: 45%;  
-  }
-  .bar .progress-line.Network span{
-	width: 40%;
-  }
+width: 80%;
+}
+.bar .progress-line.Cpp span{
+width: 70%;
+}
+.bar .progress-line.C\# span{
+width: 60%;
+}
+.bar .progress-line.unity span{
+width: 5%;
+}
+.bar .progress-line.AdminSys span{
+width: 45%;  
+}
+.bar .progress-line.Network span{
+width: 40%;
+}
 
 .progress-line span::before{
   position: absolute;
@@ -255,6 +261,9 @@ a.nav-item:hover {
 .progress-line.php span::after{
   content: "45%";
 }
+.progress-line.vuejs span::after{
+  content: "65%";
+}
 .progress-line.mysql span::after{
   content: "50%";
 }
@@ -266,6 +275,9 @@ a.nav-item:hover {
   }
   .progress-line.C\# span::after{
 	content: "60%";
+  }
+  .progress-line.unity span::after{
+  content: "5%";
   }
   .progress-line.AdminSys span::after{
 	content: "45%";

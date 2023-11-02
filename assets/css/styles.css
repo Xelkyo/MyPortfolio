@@ -194,6 +194,9 @@ margin-right: auto;
 .bar .progress-line.php span{
   width: 45%;
 }
+.bar .progress-line.vuejs span{
+  width: 65%;
+}
 .bar .progress-line.mysql span{
   width: 50%;
 }
@@ -206,6 +209,9 @@ margin-right: auto;
   .bar .progress-line.C\# span{
 	width: 60%;
   }
+  .bar .progress-line.unity span{
+    width: 5%;
+    }
   .bar .progress-line.AdminSys span{
 	width: 45%;  
   }
@@ -257,6 +263,9 @@ margin-right: auto;
 .progress-line.php span::after{
   content: "45%";
 }
+.progress-line.vuejs span::after{
+  content: "65%";
+}
 .progress-line.mysql span::after{
   content: "50%";
 }
@@ -269,6 +278,9 @@ margin-right: auto;
   .progress-line.C\# span::after{
 	content: "60%";
   }
+  .progress-line.unity span::after{
+    content: "5%";
+    }
   .progress-line.AdminSys span::after{
 	content: "45%";
   }
